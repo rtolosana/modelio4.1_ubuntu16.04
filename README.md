@@ -3,11 +3,11 @@ Installation instructions for Modelio 4.1 on a docker container. There is curren
 
 ## Installation & Execution Steps
 
-1. Build the container
+1. Build the container:
 ```
-$docker build . -t modelio_img
+docker build . -t modelio_img
 ```
 2. Run the container with the run_docker script provided: 
 ```
-$run_docker.sh
+run_docker.sh
 ```
